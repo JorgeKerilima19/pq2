@@ -20,6 +20,37 @@ export const Home = () => {
           family-like atmosphere and personalized attention to each client.
         </p>
       </div>
+      <div>
+        <h3>Why clients love Paquito Tours</h3>
+        <div>
+          <div>
+            <h4>Private Groups</h4>
+            <p>
+              We organize tours for private groups, tailored to your specific
+              interests and needs.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div>
+        <h2>What's your plan?</h2>
+        <div>BANNER</div>
+      </div>
+      <div>
+        <h2>Join Us</h2>
+        <p>
+          Discover Cusco with Paquito Tours and experience an authentic and
+          deeply connected adventure with its history and culture. We are here
+          to help you create unforgettable memories and explore the true essence
+          of Peru.
+        </p>
+        <p>
+          Contact us today to plan your next adventure and let us show you the
+          magic of Cusco through the passion and knowledge of Raúl Ángel
+          Valandra Yuca.
+        </p>
+        <button>Contact Us</button>
+      </div>
     </div>
   );
 };
