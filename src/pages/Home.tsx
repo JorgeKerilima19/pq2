@@ -1,37 +1,38 @@
 import banner from "../assets/banner.webp";
+import { Assets } from "../components/homepage/Assets";
 
 export const Home = () => {
   return (
-    <div>
+    <div className="flex flex-col">
       <img src={banner} alt="" />
-      <h2>
-        Travel confidently with Paquito tours and see new and unique experiences
+      <h2 className="text-5xl font-bold text-center py-10">
+        Travel confidently with Paquito tours and seek new and unique
+        experiences
       </h2>
-      <h3>"LOCAL - INDIGENOUS - SUSTAINABLE"</h3>
-      <div>
-        <p>
+      <div className="self-center flex items-center gap-14 m-10">
+        <span className="border-2 bg-gray-900 text-white py-5 px-10 rounded-2xl hover:text-black hover:bg-white">
+          LOCAL
+        </span>
+        <span className="border-2 bg-gray-900 text-white py-5 px-10 rounded-2xl hover:text-black hover:bg-white">
+          INDIGENOUS
+        </span>
+        <span className="border-2 bg-gray-900 text-white py-5 px-10 rounded-2xl hover:text-black hover:bg-white">
+          SUSTAINABLE
+        </span>
+      </div>
+      <div className="grid gap-4 pb-10">
+        <p className="text-center text-2xl">
           At Paquito Tours, we specialize in offering authentic and enriching
           experiences in Cusco, standing out with an approach that goes beyond
           conventional tourist routes.
         </p>
-        <p>
+        <p className="text-center text-2xl">
           Founded by Raúl Ángel Valandra Yuca, a passionate guide with a deep
           connection to Inca culture and Peruvian history, our agency provides a
           family-like atmosphere and personalized attention to each client.
         </p>
       </div>
-      <div>
-        <h3>Why clients love Paquito Tours</h3>
-        <div>
-          <div>
-            <h4>Private Groups</h4>
-            <p>
-              We organize tours for private groups, tailored to your specific
-              interests and needs.
-            </p>
-          </div>
-        </div>
-      </div>
+      <Assets />
       <div>
         <h2>What's your plan?</h2>
         <div>BANNER</div>
