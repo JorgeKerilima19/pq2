@@ -4,9 +4,9 @@ export const Navbar = () => {
   return (
     <div className="flex items-center justify-between">
       <div>
-        <img className="aspect-3/2" src={logo} alt="" />
+        <img className="w-32" src={logo} alt="" />
       </div>
-      <div className="flex-col gap-1.5">
+      <div className="flex flex-col gap-1.5 justify-between">
         <ul className="flex gap-2.5">
           <li>Our Blogs</li>
           <li>Social Projects</li>
