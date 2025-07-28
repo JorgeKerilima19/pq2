@@ -20,7 +20,7 @@ export const Home = () => {
           SUSTAINABLE
         </span>
       </div>
-      <div className="grid gap-4 pb-10">
+      <div className="grid gap-4 py-16">
         <p className="text-center text-2xl">
           At Paquito Tours, we specialize in offering authentic and enriching
           experiences in Cusco, standing out with an approach that goes beyond
@@ -34,7 +34,9 @@ export const Home = () => {
       </div>
       <Assets />
       <div>
-        <h2>What's your plan?</h2>
+        <h2 className="text-5xl font-bold text-center py-10">
+          What's your plan?
+        </h2>
         <div>BANNER</div>
       </div>
       <div>
