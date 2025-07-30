@@ -1,5 +1,5 @@
 import banner from "../assets/banner.webp";
-import { Assets } from "../components/homepage/Assets";
+import { Assets, TourBanner } from "../components/homepage";
 
 export const Home = () => {
   return (
@@ -37,17 +37,20 @@ export const Home = () => {
         <h2 className="text-5xl font-bold text-center py-10">
           What's your plan?
         </h2>
-        <div>BANNER</div>
+        <div className="flex gap-2">
+          <TourBanner />
+          <TourBanner />
+        </div>
       </div>
-      <div>
-        <h2>Join Us</h2>
-        <p>
+      <div className="flex flex-col items-center gap-5 m-10">
+        <h2 className="text-3xl font-bold">Join Us</h2>
+        <p  className="text-lg px-16 text-center">
           Discover Cusco with Paquito Tours and experience an authentic and
           deeply connected adventure with its history and culture. We are here
           to help you create unforgettable memories and explore the true essence
           of Peru.
         </p>
-        <p>
+        <p className="text-lg px-16 text-center">
           Contact us today to plan your next adventure and let us show you the
           magic of Cusco through the passion and knowledge of Raúl Ángel
           Valandra Yuca.
