@@ -44,7 +44,7 @@ export const Home = () => {
       </div>
       <div className="flex flex-col items-center gap-5 m-10">
         <h2 className="text-3xl font-bold">Join Us</h2>
-        <p  className="text-lg px-16 text-center">
+        <p className="text-lg px-16 text-center">
           Discover Cusco with Paquito Tours and experience an authentic and
           deeply connected adventure with its history and culture. We are here
           to help you create unforgettable memories and explore the true essence
@@ -55,7 +55,9 @@ export const Home = () => {
           magic of Cusco through the passion and knowledge of Raúl Ángel
           Valandra Yuca.
         </p>
-        <button>Contact Us</button>
+        <button className="border-2 bg-gray-900 text-white py-5 px-10 rounded-2xl hover:text-black hover:bg-white text-lg">
+          Contact Us
+        </button>
       </div>
     </div>
   );
