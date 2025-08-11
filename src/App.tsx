@@ -1,6 +1,6 @@
 import "./App.css";
 import { Route, Routes } from "react-router-dom";
-import { About, BlogList, Home, Reservas, Tours } from "./pages";
+import { About, BlogList, Home, Reservas, Tours, Blog } from "./pages";
 import Layout from "./Layout";
 
 function App() {
@@ -13,6 +13,7 @@ function App() {
         <Route path="/reservas" element={<Reservas />} />
         <Route path="/reservas" element={<Reservas />} />
         <Route path="/bloglist" element={<BlogList />} />
+        <Route path="/blog" element={<Blog />} />
       </Route>
     </Routes>
   );
